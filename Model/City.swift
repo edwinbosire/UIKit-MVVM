@@ -8,11 +8,11 @@
 import Foundation
 
 struct City {
-	var name: String = "-"
+	let name: String
 	private let lat: Double
 	private let lon: Double
 
-	init(name: String, latitude: Double, longitude: Double) {
+	init(name: String = "-", latitude: Double, longitude: Double) {
 		self.name = name
 		self.lat = latitude
 		self.lon = longitude

@@ -11,10 +11,15 @@ import XCTest
 class CityTest: XCTestCase {
 
 	func testCity_returnsCorrectStringValues_whenInitialised() {
-		let aCity = City(name:"", latitude: 999, longitude: 444)
+		let aCity = City(name:"", latitude: 999.55, longitude: 444)
 
-		XCTAssertEqual(aCity.latitude, "999.0")
+		XCTAssertEqual(aCity.latitude, "999.55")
 		XCTAssertEqual(aCity.longitude, "444.0")
 	}
 
+	func testCity_setsToDefaultName_whenInitialisedWithoutName() {
+		let aCity = City(name:"Nairobi", latitude: 999, longitude: 444)
+
+		XCTAssertEqual(aCity.name, "Nairobi")
+	}
 }

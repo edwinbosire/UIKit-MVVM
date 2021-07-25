@@ -21,7 +21,7 @@
 		649EA2A726AE008600DFB82C /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2A526AE008600DFB82C /* Parser.swift */; };
 		649EA2A926AE0C8600DFB82C /* CityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2A826AE0C8600DFB82C /* CityTest.swift */; };
 		649EA2AC26AE1EFF00DFB82C /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2AB26AE1EFF00DFB82C /* City.swift */; };
-		649EA2AD26AE1EFF00DFB82C /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2AB26AE1EFF00DFB82C /* City.swift */; };
+		649EA2AF26AE203600DFB82C /* ForecastAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 649EA2AE26AE203600DFB82C /* ForecastAPITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +59,7 @@
 		649EA2A526AE008600DFB82C /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
 		649EA2A826AE0C8600DFB82C /* CityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTest.swift; sourceTree = "<group>"; };
 		649EA2AB26AE1EFF00DFB82C /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		649EA2AE26AE203600DFB82C /* ForecastAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastAPITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +130,7 @@
 			children = (
 				649EA28A26ADE4F500DFB82C /* YAWA_MVVMTests.swift */,
 				649EA2A826AE0C8600DFB82C /* CityTest.swift */,
+				649EA2AE26AE203600DFB82C /* ForecastAPITests.swift */,
 			);
 			path = "YAWA-MVVMTests";
 			sourceTree = "<group>";
@@ -296,7 +298,7 @@
 			files = (
 				649EA2A726AE008600DFB82C /* Parser.swift in Sources */,
 				649EA2A926AE0C8600DFB82C /* CityTest.swift in Sources */,
-				649EA2AD26AE1EFF00DFB82C /* City.swift in Sources */,
+				649EA2AF26AE203600DFB82C /* ForecastAPITests.swift in Sources */,
 				649EA28B26ADE4F500DFB82C /* YAWA_MVVMTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

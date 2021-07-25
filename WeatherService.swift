@@ -62,18 +62,47 @@ extension ForecastAPI {
 	/// Build a URLComponent object that describes the fetching paramenters for a  forecast
 	/// Takes the name of a city and a `Duration` object
 	static func makeForecastComponents(for city: City, period: ForecastPeriod) -> URLComponents {
+
 		var components = URLComponents()
 		components.scheme = ForecastAPI.scheme
 		components.host = ForecastAPI.host
-		components.path = ForecastAPI.path
+		components.path = ForecastAPI.path + "/\(ForecastAPI.key)" + "/\(city.latitude),\(city.longitude)"
 
-		components.queryItems = [
-			URLQueryItem(name: "latitude", value: city.latitude ),
-			URLQueryItem(name: "longitude", value: city.longitude),
-			URLQueryItem(name: "units", value: "metric"),
-			URLQueryItem(name: "api_key", value: ForecastAPI.key),
-		]
+		if period == .yesterday {
+			if let yesterdayDate = Date.yesterday {
+				let date = "\(yesterdayDate.timeIntervalSince1970)"
+				components.queryItems = [
+				  URLQueryItem(name: "date", value: date),
+				]
+			}
+		}
+
+
 
 		return components
+	}
+}
+
+extension Date {
+	static var yesterday: Date? { return Date().dayBefore }
+	static var tomorrow:  Date? { return Date().dayAfter }
+
+	var dayBefore: Date? {
+		guard let noon = noon else {
+			fatalError("Failed to initialise today's date")
+		}
+
+		return Calendar.current.date(byAdding: .day, value: -1, to: noon)
+	}
+
+	var dayAfter: Date? {
+		guard let noon = noon else {
+			fatalError("Failed to initialise today's date")
+		}
+		return Calendar.current.date(byAdding: .day, value: 1, to: noon)
+	}
+
+	var noon: Date? {
+		return Calendar.current.date(bySettingHour: 12, minute: 0, second: 0, of: self)
 	}
 }
