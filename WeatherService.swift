@@ -12,9 +12,12 @@ enum ForecastPeriod {
 	case today
 	case yesterday
 }
+typealias WeatherResponse = Welcome
 
 protocol ForecastFetchable {
-	func weatherForecast(for city: City, period: ForecastPeriod) -> AnyPublisher<CurrentForecastResponse, WeatherError>
+	func weatherForecast(for city: City, period: ForecastPeriod) -> AnyPublisher<WeatherResponse, WeatherError>
+
+	func forecast<T>(with components: URLComponents) -> AnyPublisher<T, WeatherError> where T: Decodable
 }
 
 class WeatherService {
@@ -26,12 +29,12 @@ class WeatherService {
 }
 
 extension WeatherService: ForecastFetchable {
-	func weatherForecast(for city: City, period: ForecastPeriod) -> AnyPublisher<CurrentForecastResponse, WeatherError> {
+	func weatherForecast(for city: City, period: ForecastPeriod) -> AnyPublisher<WeatherResponse, WeatherError> {
 		forecast(with: ForecastAPI.makeForecastComponents(for: city, period: period))
 	}
 
 
-	private func forecast<T>(with components: URLComponents) -> AnyPublisher<T, WeatherError> where T: Decodable {
+	internal func forecast<T>(with components: URLComponents) -> AnyPublisher<T, WeatherError> where T: Decodable {
 		guard let url = components.url else {
 			let error = WeatherError.network(description: "Failed to create valid URL")
 			return Fail(error: error).eraseToAnyPublisher()
@@ -41,68 +44,5 @@ extension WeatherService: ForecastFetchable {
 			.mapError({ .network(description: $0.localizedDescription)})
 			.flatMap({decode($0.data)})
 			.eraseToAnyPublisher()
-	}
-}
-
-extension WeatherService {
-
-
-}
-
-
-/// Forecast.io API parameters
-struct ForecastAPI {
-	static let scheme = "https"
-	static let host = "api.forecast.io"
-	static let path = "/forecast"
-	static let key = "d0f2d7b4f0e23a0bf37a386ad905fc03"
-}
-
-extension ForecastAPI {
-	/// Build a URLComponent object that describes the fetching paramenters for a  forecast
-	/// Takes the name of a city and a `Duration` object
-	static func makeForecastComponents(for city: City, period: ForecastPeriod) -> URLComponents {
-
-		var components = URLComponents()
-		components.scheme = ForecastAPI.scheme
-		components.host = ForecastAPI.host
-		components.path = ForecastAPI.path + "/\(ForecastAPI.key)" + "/\(city.latitude),\(city.longitude)"
-
-		if period == .yesterday {
-			if let yesterdayDate = Date.yesterday {
-				let date = "\(yesterdayDate.timeIntervalSince1970)"
-				components.queryItems = [
-				  URLQueryItem(name: "date", value: date),
-				]
-			}
-		}
-
-
-
-		return components
-	}
-}
-
-extension Date {
-	static var yesterday: Date? { return Date().dayBefore }
-	static var tomorrow:  Date? { return Date().dayAfter }
-
-	var dayBefore: Date? {
-		guard let noon = noon else {
-			fatalError("Failed to initialise today's date")
-		}
-
-		return Calendar.current.date(byAdding: .day, value: -1, to: noon)
-	}
-
-	var dayAfter: Date? {
-		guard let noon = noon else {
-			fatalError("Failed to initialise today's date")
-		}
-		return Calendar.current.date(byAdding: .day, value: 1, to: noon)
-	}
-
-	var noon: Date? {
-		return Calendar.current.date(bySettingHour: 12, minute: 0, second: 0, of: self)
 	}
 }

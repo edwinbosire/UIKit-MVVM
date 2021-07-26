@@ -4,66 +4,115 @@
 //
 //  Created by Edwin Bosire on 25/07/2021.
 //
+// This file was generated from JSON Schema using quicktype, do not modify it directly.
+// To parse the JSON, add this file to your project and do:
+//
+//   let welcome = try? newJSONDecoder().decode(Welcome.self, from: jsonData)
 
 import Foundation
 
-struct WeeklyForecastResponse: Codable {
-  let list: [Item]
-
-  struct Item: Codable {
-	let date: Date
-	let main: MainClass
-	let weather: [Weather]
-
-	enum CodingKeys: String, CodingKey {
-	  case date = "dt"
-	  case main
-	  case weather
-	}
-  }
-
-  struct MainClass: Codable {
-	let temp: Double
-  }
-
-  struct Weather: Codable {
-	let main: MainEnum
-	let weatherDescription: String
-
-	enum CodingKeys: String, CodingKey {
-	  case main
-	  case weatherDescription = "description"
-	}
-  }
-
-  enum MainEnum: String, Codable {
-	case clear = "Clear"
-	case clouds = "Clouds"
-	case rain = "Rain"
-  }
+// MARK: - Welcome
+struct Welcome: Codable {
+	let latitude, longitude: Double
+	let timezone: String
+	var currently: Currently
+	var minutely: Minutely?
+	var hourly: Hourly?
+	var daily: Daily?
+//	let flags: Flags
+//	let offset: Int
 }
 
-struct CurrentForecastResponse: Decodable {
-  let coord: Coord
-  let main: Main
-
-  struct Main: Codable {
-	let temperature: Double
-	let humidity: Int
-	let maxTemperature: Double
-	let minTemperature: Double
-
-	enum CodingKeys: String, CodingKey {
-	  case temperature = "temp"
-	  case humidity
-	  case maxTemperature = "temp_max"
-	  case minTemperature = "temp_min"
-	}
-  }
-
-  struct Coord: Codable {
-	let lon: Double
-	let lat: Double
-  }
+// MARK: - Currently
+struct Currently: Codable, Hashable {
+	let time: Int
+	let summary: String
+	let icon: String
+	let nearestStormDistance, nearestStormBearing: Int?
+	let precipIntensity, precipProbability, temperature, apparentTemperature: Double
+	let dewPoint, humidity, pressure, windSpeed: Double
+	let windGust: Double
+	let windBearing: Int
+	let cloudCover: Double
+	let uvIndex: Int
+	let visibility, ozone: Double
+	let precipType: String?
 }
 
+
+// MARK: - Daily
+struct Daily: Codable {
+	let summary: String
+	let icon: String
+	let data: [DailyDatum]
+}
+
+// MARK: - DailyDatum
+struct DailyDatum: Codable {
+	let time: Int
+	let summary: String
+	let icon: String
+	var sunriseTime, sunsetTime: Int
+	var moonPhase, precipIntensity, precipIntensityMax: Double?
+	var precipIntensityMaxTime: Int?
+	var precipProbability: Double?
+	var precipType: String?
+	var temperatureHigh: Double?
+	var temperatureHighTime: Int?
+	var temperatureLow: Double?
+	var temperatureLowTime: Int?
+	var apparentTemperatureHigh: Double?
+	var apparentTemperatureHighTime: Int?
+	var apparentTemperatureLow: Double?
+	var apparentTemperatureLowTime: Int?
+	var dewPoint, humidity, pressure, windSpeed: Double?
+	var windGust: Double?
+	var windGustTime, windBearing: Int?
+	var cloudCover: Double?
+	var uvIndex, uvIndexTime: Int?
+	var visibility, ozone, temperatureMin: Double?
+	var temperatureMinTime: Int?
+	var temperatureMax: Double?
+	var temperatureMaxTime: Int?
+	var apparentTemperatureMin: Double?
+	var apparentTemperatureMinTime: Int?
+	var apparentTemperatureMax: Double?
+	var apparentTemperatureMaxTime: Int?
+}
+
+// MARK: - Flags
+struct Flags: Codable {
+	var sources: [String]?
+	var meteoalarmLicense: String?
+	var nearestStation: Double?
+	var units: String?
+
+	enum CodingKeys: String, CodingKey {
+		case sources
+		case meteoalarmLicense = "meteoalarm-license"
+		case nearestStation = "nearest-station"
+		case units
+	}
+}
+
+// MARK: - Hourly
+struct Hourly: Codable {
+	let summary: String
+	let icon: String
+	var data: [Currently]?
+}
+
+// MARK: - Minutely
+struct Minutely: Codable {
+	let summary: String
+	let icon: String
+	var data: [MinutelyDatum]?
+}
+
+// MARK: - MinutelyDatum
+struct MinutelyDatum: Codable {
+	let time: Int
+	let precipIntensity, precipProbability: Double
+	let precipIntensityError: Double?
+	var precipType: String?
+}
