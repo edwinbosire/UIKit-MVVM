@@ -5,29 +5,19 @@
 //  Created by Edwin Bosire on 25/07/2021.
 //
 
-import XCTest
-@testable import YAWA_MVVM
+import Foundation
 
-class YAWA_MVVMTests: XCTestCase {
+func loadJSON(_ jsonFile: String, from bundle: Bundle) throws -> Data? {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-    }
+	guard let url = bundle.url(forResource: jsonFile, withExtension: "json") else {
+		fatalError("Missing file: User.json")
+		return nil
+	}
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+	return try Data(contentsOf: url)
+}
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
 
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
-    }
-
+enum TestErrors: Error {
+	case runtimeError(String)
 }

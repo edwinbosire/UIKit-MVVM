@@ -26,11 +26,12 @@ class WeatherServiceTests: XCTestCase {
 		let service = WeatherService(session: urlSession)
 
 		// create mock data
-		guard let mockData = try? loadJSONData() else {
+		let bundle = Bundle(for: type(of: self))
+		guard let mockData = try? loadJSON("forecastAPIResponse", from: bundle) else {
 				  throw TestErrors.runtimeError("failed to decode sample json data")
 			  }
 
-		guard let mockWeatherResponse = try? JSONDecoder().decode(Welcome.self, from: mockData) else {
+		guard let mockWeatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: mockData) else {
 			throw TestErrors.runtimeError("Error parsing jsonData")
 		}
 
@@ -69,23 +70,6 @@ class WeatherServiceTests: XCTestCase {
 	private var testCity: City {
 		City(latitude: -34.9285, longitude: 138.6005)
 	}
-
-
-
-	private func loadJSONData() throws -> Data? {
-		let bundle = Bundle(for: type(of: self))
-
-		guard let url = bundle.url(forResource: "forecastAPIResponse", withExtension: "json") else {
-			XCTFail("Missing file: User.json")
-			return nil
-		}
-
-		return try Data(contentsOf: url)
-	}
-}
-
-private enum TestErrors: Error {
-	case runtimeError(String)
 }
 
 extension XCTestCase {

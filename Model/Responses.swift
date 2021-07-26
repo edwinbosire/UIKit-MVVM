@@ -12,7 +12,7 @@
 import Foundation
 
 // MARK: - Welcome
-struct Welcome: Codable {
+struct WeatherResponse: Codable {
 	let latitude, longitude: Double
 	let timezone: String
 	var currently: Currently
