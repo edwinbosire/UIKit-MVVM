@@ -11,7 +11,7 @@ import Combine
 
 class CitiesListViewModelTests: XCTestCase {
 
-	var viewModel: CitiesListViewModel
+	var viewModel: CitiesListViewModel?
     override func setUpWithError() throws {
 
 //		let service = WeatherServiceMock()
@@ -24,7 +24,7 @@ class CitiesListViewModelTests: XCTestCase {
 
     func test_stateChange_whenViewDidAppear() throws {
 		let expectation = XCTestExpectation(description: self.debugDescription)
-		let cancellable = viewModel.$state
+		let cancellable = viewModel?.$state
 			.sink { state in
 				XCTAssertTrue(state == .idle)
 			}
