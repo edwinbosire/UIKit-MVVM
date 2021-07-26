@@ -1,0 +1,857 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "2D19173B-6FBB-4D65-B3F0-0ED0C622DE08"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YAWA-MVVMTests/WeatherServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "testService_canRetrieveForecast()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "6020">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "6142">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "2588">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "1961">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f29"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "2394">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2094">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2251">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "3808">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5000">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4589">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4185">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5676">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2723">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "2241">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5800">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "3933">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4317">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4350">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4727">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5755">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5188">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "4760">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5169">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "6242">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f6b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "5684">
+               </Location>
+               <Location
+                  uuid = "25BBF388-D4B6-40C0-A587-7009B78FD0BE - 2d112ceae3365f4c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "5866">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YAWA-MVVMTests/WeatherServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "testService_canRetrieveForecast()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "5993">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2439">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "1812">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fad"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "2245">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "1945">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "2102">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "3659">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4851">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4440">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4036">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "5527">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "2574">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "5651">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "3784">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4168">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4201">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4578">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "5606">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "5039">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "4611">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "5020">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "6093">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "5535">
+               </Location>
+               <Location
+                  uuid = "FD6792E6-F2BE-4C9B-A50F-D09B6610B458 - 2d112ceae3365fc0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "YAWA_MVVMTests.WeatherServiceTests.testService_canRetrieveForecast() throws -&gt; ()"
+                  moduleName = "YAWA-MVVMTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ed/Develop/Projects/YAWA-MVVM/YAWA-MVVMTests/WeatherServiceTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "35"
+                  endingLineNumber = "35"
+                  offsetFromSymbolStart = "5704">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E077839B-A647-4348-9B90-759099268A56"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "YAWA-MVVMTests/WeatherServiceTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "testService_canRetrieveForecast()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DB77E98-6DDA-4553-876C-D9427FF66AC9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Services/WeatherService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "forecast(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C71FC9D5-5A18-4D26-AFA9-9C5DB2628048"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Services/WeatherService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "forecast(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
