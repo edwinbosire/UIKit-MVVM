@@ -19,7 +19,7 @@ class CitiesListViewModel: ObservableObject {
 	private let input = PassthroughSubject<Event, Never>()
 	private let weatherService: ForecastFetchable
 
-	init(weatherService: ForecastFetchable) {
+	init(weatherService: ForecastFetchable = WeatherService()) {
 		self.weatherService = weatherService
 
 		Publishers.system(initial: state,
@@ -35,9 +35,9 @@ class CitiesListViewModel: ObservableObject {
 	}
 
 	/// Fetches lates weather data
-	func fetch() {
-		self.state = .loading
-	}
+//	func fetch() {
+//		self.state = .loading
+//	}
 
 	func send(event: Event) {
 		input.send(event)
@@ -61,6 +61,8 @@ class CitiesListViewModel: ObservableObject {
 }
 
 extension CitiesListViewModel {
+	enum Section { case cities }
+
 	enum State: Equatable {
 		case idle
 		case loading
@@ -118,19 +120,4 @@ extension CitiesListViewModel {
 	static func userInput(input: AnyPublisher<Event, Never>) -> Feedback<State, Event> {
 			Feedback { _ in input }
 		}
-}
-
-extension CitiesListViewModel {
-//	func currentView() -> UIViewController {
-//		switch state {
-//			case .idle:
-//				return UIViewController()
-//			case .loading:
-//				return UIViewController()
-//			case .error(let error):
-//				return UIViewController()
-//			case .loaded(let cities):
-//				return CitiesListView(viewModel: self)
-//		}
-//	}
 }

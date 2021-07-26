@@ -11,7 +11,6 @@ func loadJSON(_ jsonFile: String, from bundle: Bundle) throws -> Data? {
 
 	guard let url = bundle.url(forResource: jsonFile, withExtension: "json") else {
 		fatalError("Missing file: User.json")
-		return nil
 	}
 
 	return try Data(contentsOf: url)

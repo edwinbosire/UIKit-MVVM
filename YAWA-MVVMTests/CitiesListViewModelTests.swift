@@ -11,11 +11,11 @@ import Combine
 
 class CitiesListViewModelTests: XCTestCase {
 
-	var viewModel: CitiesListViewModel!
+	var viewModel: CitiesListViewModel
     override func setUpWithError() throws {
 
-		let service = WeatherServiceMock()
-		viewModel = CitiesListViewModel(weatherService: service)
+//		let service = WeatherServiceMock()
+//		viewModel = CitiesListViewModel(weatherService: service)
     }
 
     override func tearDownWithError() throws {
@@ -42,7 +42,15 @@ class CitiesListViewModelTests: XCTestCase {
 
 }
 
-private class WeatherServiceMock: ForecastFetchable {
+class WeatherServiceMock {
+
+
+	private let session: URLSession
+
+	init(session: URLSession = .shared) {
+		self.session = session
+	}
+
 	func weatherForecast(for city: City, period: ForecastPeriod) -> AnyPublisher<WeatherResponse, WeatherError> {
 		return forecast(with: ForecastAPI.makeForecastComponents(for: city, period: period))
 	}
@@ -54,19 +62,29 @@ private class WeatherServiceMock: ForecastFetchable {
 			.eraseToAnyPublisher()
 	}
 
-	func forecast<T>(with components: URLComponents) -> AnyPublisher<T, WeatherError> where T : Decodable {
-		let fail = Fail<T, WeatherError>(error: WeatherError.parsing(description: "Could not load file"))
-		// create mock data
-		let bundle = Bundle(for: type(of: self))
-		guard let mockData = try? loadJSON("forecastAPIResponse", from: bundle) else {
-			return fail.eraseToAnyPublisher()
+	internal func forecast<T>(with components: URLComponents) -> AnyPublisher<T, WeatherError> where T : Decodable {
+//		let fail = Fail<T, WeatherError>(error: WeatherError.parsing(description: "Could not load file"))
+//		// create mock data
+//		let bundle = Bundle(for: type(of: self))
+//		guard let mockData = try? loadJSON("forecastAPIResponse", from: bundle) else {
+//			return fail.eraseToAnyPublisher()
+//		}
+//
+//		guard let mockWeatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: mockData) else {
+//			return fail.eraseToAnyPublisher()
+//		}
+//
+//		return CurrentValueSubject<T, WeatherError>(mockWeatherResponse as! T).eraseToAnyPublisher()
+
+		guard let url = components.url else {
+			let error = WeatherError.network(description: "Failed to create valid URL")
+			return Fail(error: error).eraseToAnyPublisher()
 		}
 
-		guard let mockWeatherResponse = try? JSONDecoder().decode(WeatherResponse.self, from: mockData) else {
-			return fail.eraseToAnyPublisher()
-		}
-
-		return CurrentValueSubject<T, WeatherError>(mockWeatherResponse as! T).eraseToAnyPublisher()
+		return session.dataTaskPublisher(for: url)
+			.mapError({ .network(description: $0.localizedDescription)})
+			.flatMap({decode($0.data)})
+			.eraseToAnyPublisher()
 
 	}
 }

@@ -12,7 +12,7 @@
 import Foundation
 
 // MARK: - Welcome
-struct WeatherResponse: Codable {
+struct WeatherResponse: Codable, Equatable, Hashable {
 	let latitude, longitude: Double
 	let timezone: String
 	var currently: Currently
@@ -41,14 +41,14 @@ struct Currently: Codable, Hashable {
 
 
 // MARK: - Daily
-struct Daily: Codable {
+struct Daily: Codable, Equatable, Hashable {
 	let summary: String
 	let icon: String
 	let data: [DailyDatum]
 }
 
 // MARK: - DailyDatum
-struct DailyDatum: Codable {
+struct DailyDatum: Codable, Equatable, Hashable {
 	let time: Int
 	let summary: String
 	let icon: String
@@ -81,7 +81,7 @@ struct DailyDatum: Codable {
 }
 
 // MARK: - Flags
-struct Flags: Codable {
+struct Flags: Codable, Equatable, Hashable {
 	var sources: [String]?
 	var meteoalarmLicense: String?
 	var nearestStation: Double?
@@ -96,21 +96,21 @@ struct Flags: Codable {
 }
 
 // MARK: - Hourly
-struct Hourly: Codable {
+struct Hourly: Codable, Equatable, Hashable {
 	let summary: String
 	let icon: String
 	var data: [Currently]?
 }
 
 // MARK: - Minutely
-struct Minutely: Codable {
+struct Minutely: Codable, Equatable, Hashable {
 	let summary: String
 	let icon: String
 	var data: [MinutelyDatum]?
 }
 
 // MARK: - MinutelyDatum
-struct MinutelyDatum: Codable {
+struct MinutelyDatum: Codable, Equatable, Hashable {
 	let time: Int
 	let precipIntensity, precipProbability: Double
 	let precipIntensityError: Double?
